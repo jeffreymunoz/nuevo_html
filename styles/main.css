@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+  margin: 0;
+  padding: 0;
+}
+aside{
+  background-color: slategray;
+  width: 800px;
+  height: 1200px;
+  margin: 20px;
+}
+main{
+  display: inline-block;
+  background-color: #008CFF;
+  margin: 20px 30px;
+  
+}
+main article {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  display: inline-block;
+  border-radius: 50%;
+}
+nav{
+  background-color: #FF1744;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none; 
+}
+nav ul li a{
+  display: inline-block ;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+.active{
+  background-color: #31161D;
+}
+
+div{
+  display: inline-table;
+  background-color: #008CFF;
+  margin: 0px 0px 10px 50px
+}
+div h1{
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 30px 30px;
+  padding: 30px;
+}
+
+ footer{
+  background-color: #008CFF;
+  display: inline-block;
+  margin: 10px 10px 10px 30px;
+}
+ footer li{
+  background-color: bisque;
+  display: inline-block;
+  width: 180px;
+  height: 450px;
+  margin: 10px 20px 30px 40px;
+}
+footer li a{
+  background-color: black;
+ display: inline-block;
+  width: 130px;
+  height: 120px;
+  margin :10px 10px 10px 20px;
+}
+footer li p{
+  background-color: black;
+  display: inline-block;
+   width: 130px;
+   height: 411px;
+   margin :10px 10px 10px 20px;
+   border-radius: 90px;
+}
+footer li div{
+  background-color: black;
+ display: inline-block;
+  width: 130px;
+  height: 120px;
+  margin :10px 10px 10px 20px;
+  border-radius: 50%;
+}
