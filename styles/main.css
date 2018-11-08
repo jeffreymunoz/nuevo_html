@@ -9,20 +9,20 @@ aside{
   height: 1200px;
   margin: 20px;
 }
-main{
+aside main{
   display: inline-block;
   background-color: #008CFF;
   margin: 20px 30px;
   
 }
-main article {
+aside main article {
   width: 200px;
   height: 200px;
   background-color: bisque;
   display: inline-block;
   border-radius: 50%;
 }
-nav{
+ nav{
   background-color: #FF1744;
   text-align: center;
 }
@@ -38,17 +38,12 @@ nav ul li a{
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
 }
-
-.active{
-  background-color: #31161D;
-}
-
-div{
+aside div{
   display: inline-table;
   background-color: #008CFF;
   margin: 0px 0px 10px 50px
 }
-div h1{
+aside div h1{
   width: 200px;
   height: 200px;
   background-color: bisque;
@@ -57,28 +52,26 @@ div h1{
   margin: 30px 30px;
   padding: 30px;
 }
-
-
- footer{
+aside footer{
   background-color: #008CFF;
   display: inline-block;
   margin: 10px 10px 10px 30px;
 }
- footer li{
+aside footer li{
   background-color: bisque;
   display: inline-block;
   width: 180px;
   height: 450px;
   margin: 10px 20px 30px 40px;
 }
-footer li a{
+aside footer li a{
   background-color: black;
  display: inline-block;
   width: 130px;
   height: 120px;
   margin :10px 10px 10px 20px;
 }
-footer li p{
+aside footer li p{
   background-color: black;
   display: inline-block;
    width: 130px;
@@ -86,11 +79,82 @@ footer li p{
    margin :10px 10px 10px 20px;
    border-radius: 90px;
 }
-footer li div{
+aside footer li div{
   background-color: black;
  display: inline-block;
   width: 130px;
   height: 120px;
   margin :10px 10px 10px 20px;
   border-radius: 50%;
+}
+.active{
+  background-color: #31161D;
+}
+.pagina2{
+  background-color: black;
+  display: inline-block;
+  margin: 40px; 
+  padding: 10px;
+}
+.pagina2 div article{
+  background-color: burlywood;
+  width: 350px;
+  height: 350px;
+  display: inline-block;
+  margin: 20px;
+}
+.pagina2 div article a{
+  background-color: brown;
+  width: 173px;
+  height: 173px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.pagina2 nav{
+  background-color: burlywood;
+  width: 400px;
+  display: inline-block;
+  margin: 10px 200px;
+}
+.pagina2 nav div{
+  background-color: brown;
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.pagina2 footer h1 h2{
+height: 290px;
+
+}
+.pagina2 footer h1{
+  background-color: burlywood;
+  width: 140px;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+}
+.pagina2 footer h1 p{
+  background-color: brown;
+  width: 120px;
+  height: 270px;
+  margin:10px;
+  border-radius: 70px;
+}
+.pagina2 footer h2{
+  background-color: burlywood;
+  width: 250px;  
+  display: inline-block;
+  margin: 10px;
+  
+}
+.pagina2 footer h2 li{
+  background-color: brown;
+  width: 110px;
+  height: 128px;
+  list-style: none;
+  display: inline-block;
+  border-radius: 50%;
+  margin:6px;
+ 
 }
