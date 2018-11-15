@@ -496,3 +496,98 @@ height: 290px;
   margin: 5px;
 }
 
+
+.pagina5{
+  background-color: gold;
+  margin: 30px;
+  width: 900px;
+  display: inline-block;
+}
+.pagina5 div{
+  background-color: black;
+  width: 250px;
+  height: 800px;
+  display: inline-block;
+  margin: 20px;
+}
+.pagina5 main{
+  background-color: black;
+  width: 300px;
+  height: 800px;
+  display: inline-block;
+  margin: 20px 0px;
+}
+.pagina5 footer{
+  background-color: black;
+  width: 850px;
+  height: 300px;
+  margin: 20px;
+}
+.pagina5 div li{
+  background-color: chocolate;
+  width: 120px;
+  height: 170px;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+}
+.pagina5 div li a{
+  background-color: whitesmoke;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin: 15px 0px 0px 30px;
+  border-radius: 50%
+}
+.pagina5 div section{
+  background-color: chocolate;
+  width: 80px;
+  height: 170px;
+  display: inline-block;
+  margin: 10px;
+}
+.pagina5 div section p{
+  background-color: whitesmoke;
+  width: 60px;
+  height: 150px;
+  border-radius: 60%;
+  margin: 10px;
+  vertical-align: top;
+}
+.pagina5 aside{
+  background-color: chocolate;
+  width: 225px;
+  height: 140px;
+  margin: 10px;
+  display: inline-block;
+}
+.pagina5 aside nav{
+  background-color: whitesmoke;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 15px 0px 0px 7px;
+  border-radius: 50%;
+}
+.pagina5 div section a{
+  background-color: whitesmoke;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 50%;
+}
+.pagina5 div h1{
+  background-color: chocolate;
+  width: 225px;
+  height: 240px;
+  margin: 0px 10px;
+}
+.pagina5 div h1 nav{
+  background-color: whitesmoke;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin: 13px;
+  border-radius: 50%
+}
